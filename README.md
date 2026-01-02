@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm currently working at IIT Bhilai<br>I'm a Full stack Dev<br>I Studies only Bachelours<br>My experties in MERN Stack<br>I also do development in other languages Like python,c/c++, java,php<br>and system architecture development 
+🚀 Full-Stack Developer at IIT Bhilai | 💻 MERN Stack Specialist | 🎓 Bachelor’s Degree (Real learning from production code) | 🧠 System Architecture & Scalability Mindset | 🐍 Python • ☕ Java • ⚙️ C/C++ • 🐘 PHP | 🔥 I build systems that don’t break at 2 AM
 
 
 ## 🌐 Socials:
