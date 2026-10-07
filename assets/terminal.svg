@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" role="img" aria-label="Terminal introducing Anubhav Tandon, Full-Stack Developer at IIT Bhilai">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7F5AF0"/>
+      <stop offset="100%" stop-color="#00C2FF"/>
+    </linearGradient>
+    <!-- One clip per typed command; each rect sweeps open like a cursor typing -->
+    <clipPath id="t1"><rect x="0" y="0" width="0" height="430"><animate attributeName="width" from="0" to="800" begin="0.4s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t2"><rect x="0" y="0" width="0" height="430"><animate attributeName="width" from="0" to="800" begin="1.9s" dur="1.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t3"><rect x="0" y="0" width="0" height="430"><animate attributeName="width" from="0" to="800" begin="4.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t4"><rect x="0" y="0" width="0" height="430"><animate attributeName="width" from="0" to="800" begin="5.8s" dur="1.0s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace; font-size: 15px; }
+    .prompt { fill: #7aa2f7; font-weight: 700; }
+    .path   { fill: #bb9af7; font-weight: 700; }
+    .cmd    { fill: #c0caf5; }
+    .out    { fill: #a9b1d6; }
+    .hi     { fill: #7dcfff; font-weight: 700; }
+    .ok     { fill: #9ece6a; }
+    .warn   { fill: #e0af68; }
+    .dim    { fill: #565f89; }
+    .title  { fill: #a9b1d6; font-size: 13px; }
+    .cursor { fill: #7dcfff; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <!-- Window -->
+  <rect x="2" y="2" width="796" height="426" rx="14" fill="url(#frame)"/>
+  <rect x="4" y="4" width="792" height="422" rx="12" fill="#1a1b26"/>
+  <rect x="4" y="4" width="792" height="36" rx="12" fill="#16161e"/>
+  <rect x="4" y="28" width="792" height="12" fill="#16161e"/>
+  <circle cx="26" cy="22" r="6.5" fill="#ff5f57"/>
+  <circle cx="48" cy="22" r="6.5" fill="#febc2e"/>
+  <circle cx="70" cy="22" r="6.5" fill="#28c840"/>
+  <text x="400" y="27" text-anchor="middle" class="title">anubhav@github: ~</text>
+
+  <!-- 1: whoami -->
+  <g clip-path="url(#t1)">
+    <text x="24" y="74"><tspan class="prompt">anubhav</tspan><tspan class="dim">@</tspan><tspan class="path">github</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">whoami</tspan></text>
+  </g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="1.4s" fill="freeze"/>
+    <text x="24" y="100"><tspan class="hi">Anubhav Tandon</tspan><tspan class="out"> — Full-Stack Developer @ </tspan><tspan class="warn">IIT Bhilai</tspan></text>
+  </g>
+
+  <!-- 2: cat focus.txt -->
+  <g clip-path="url(#t2)">
+    <text x="24" y="138"><tspan class="prompt">anubhav</tspan><tspan class="dim">@</tspan><tspan class="path">github</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">cat focus.txt</tspan></text>
+  </g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="3.0s" fill="freeze"/>
+    <text x="24" y="164"><tspan class="ok">▸ </tspan><tspan class="out">MERN stack, end to end — from schema to deployment</tspan></text>
+  </g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="3.35s" fill="freeze"/>
+    <text x="24" y="190"><tspan class="ok">▸ </tspan><tspan class="out">System architecture &amp; scalability</tspan></text>
+  </g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="3.7s" fill="freeze"/>
+    <text x="24" y="216"><tspan class="ok">▸ </tspan><tspan class="out">Production code that doesn't break at </tspan><tspan class="warn">2 AM</tspan></text>
+  </g>
+
+  <!-- 3: ls ~/shipped -->
+  <g clip-path="url(#t3)">
+    <text x="24" y="254"><tspan class="prompt">anubhav</tspan><tspan class="dim">@</tspan><tspan class="path">github</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">ls ~/shipped</tspan></text>
+  </g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="5.3s" fill="freeze"/>
+    <text x="24" y="280"><tspan class="hi">freecalculatorworld.com</tspan><tspan class="hi" dx="36">pixshrink.com</tspan></text>
+  </g>
+
+  <!-- 4: echo $STACK -->
+  <g clip-path="url(#t4)">
+    <text x="24" y="318"><tspan class="prompt">anubhav</tspan><tspan class="dim">@</tspan><tspan class="path">github</tspan><tspan class="dim">:~$ </tspan><tspan class="cmd">echo $STACK</tspan></text>
+  </g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="6.9s" fill="freeze"/>
+    <text x="24" y="344" class="out">JavaScript · TypeScript · Python · Java · C/C++ · PHP · Go</text>
+  </g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="7.2s" fill="freeze"/>
+    <text x="24" y="370" class="out">React · Node · Express · Next.js · MongoDB · Postgres · Redis · AWS</text>
+  </g>
+
+  <!-- final prompt + blinking cursor -->
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="7.8s" fill="freeze"/>
+    <text x="24" y="408"><tspan class="prompt">anubhav</tspan><tspan class="dim">@</tspan><tspan class="path">github</tspan><tspan class="dim">:~$ </tspan></text>
+    <rect class="cursor" x="186" y="394" width="9" height="18"/>
+  </g>
+</svg>
